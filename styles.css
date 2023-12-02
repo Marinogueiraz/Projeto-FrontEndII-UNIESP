@@ -1,0 +1,51 @@
+/* styles.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+#conteudo {
+    border: 5px solid black; /* Adicionando borda preta ao redor do conteúdo */
+    padding: 20px; /* Espaçamento interno para a borda */
+    box-sizing: border-box; /* Garante que a largura total inclua a borda e o preenchimento */
+    width: 400px; /* Defina a largura do conteúdo */
+    height: 500px;
+}
+
+#menuPrincipal {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.opcaoMenu {
+    text-decoration: none; 
+    color: black; 
+    margin-left: 5px; 
+    margin-right: 5px;
+}
+
+#tituloPrincipal {
+    margin-top: 20px; /* Reduzindo a margem superior para acomodar a borda */
+    margin-bottom: 20px;
+    text-align: center; /* Centralizando o texto */
+}
+
+.textoDestaque {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 500px;
+}
+
+/* Adicionando borda aos campos de input */
+input {
+    border: 2px solid black;
+    padding: 8px; /* Espaçamento interno para o conteúdo */
+    margin-bottom: 10px;
+}
